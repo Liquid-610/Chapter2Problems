@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Room", "Room.cs\Room.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carpet", "Carpet\Carpet.csproj", "{12E3A79E-8B25-4524-88DD-7CF74D7DF94A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hours", "Hours\Hours.csproj", "{82911A1C-506D-4826-8883-3289A1564ADD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{12E3A79E-8B25-4524-88DD-7CF74D7DF94A}.Debug|x86.Build.0 = Debug|x86
 		{12E3A79E-8B25-4524-88DD-7CF74D7DF94A}.Release|x86.ActiveCfg = Release|x86
 		{12E3A79E-8B25-4524-88DD-7CF74D7DF94A}.Release|x86.Build.0 = Release|x86
+		{82911A1C-506D-4826-8883-3289A1564ADD}.Debug|x86.ActiveCfg = Debug|x86
+		{82911A1C-506D-4826-8883-3289A1564ADD}.Debug|x86.Build.0 = Debug|x86
+		{82911A1C-506D-4826-8883-3289A1564ADD}.Release|x86.ActiveCfg = Release|x86
+		{82911A1C-506D-4826-8883-3289A1564ADD}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
