@@ -9,10 +9,12 @@ namespace Hours
     {
         static void Main(string[] args)
         {
-            int minutes;
-            int time;
-            int hours;
-            int
+            int minutes = 17;
+            int hours = 3;
+
+
+
+            Console.WriteLine(" The 197 minutes you worked is {0} Hours {1} minutes", hours, minutes);
                 
         }
     }
