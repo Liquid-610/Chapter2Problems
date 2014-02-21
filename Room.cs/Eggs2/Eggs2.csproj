@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d51fe17e-6f45-40af-9dd5-67fe97729185</ProjectGuid>
+    <ProjectGuid>{EAEC5D62-6BD9-4490-8F81-997B19C1DB04}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Eggs2</RootNamespace>

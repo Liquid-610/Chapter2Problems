@@ -9,6 +9,26 @@ namespace Eggs2
     {
         static void Main(string[] args)
         {
+          
+            int eggs;
+            int chick1 = 6;
+            int chick2 = 4;
+            int chick3 = 6;
+            int chick4 = 8;
+
+            eggs = chick1 + chick2 + chick3 + chick4;
+
+            double dozen = 12;
+            double total = eggs / dozen;
+
+            Console.Write(" The total is {0} dozen and {1} eggs",dozen,eggs);
+                
+            
+
+
+   
+             
+
         }
     }
 }
