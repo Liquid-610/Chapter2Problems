@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eggs", "Eggs\Eggs.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eggs2", "Eggs2\Eggs2.csproj", "{EAEC5D62-6BD9-4490-8F81-997B19C1DB04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "Payroll\Payroll.csproj", "{4165A292-43DD-4137-AB12-1DB21C9A8576}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,6 +39,10 @@ Global
 		{EAEC5D62-6BD9-4490-8F81-997B19C1DB04}.Debug|x86.Build.0 = Debug|x86
 		{EAEC5D62-6BD9-4490-8F81-997B19C1DB04}.Release|x86.ActiveCfg = Release|x86
 		{EAEC5D62-6BD9-4490-8F81-997B19C1DB04}.Release|x86.Build.0 = Release|x86
+		{4165A292-43DD-4137-AB12-1DB21C9A8576}.Debug|x86.ActiveCfg = Debug|x86
+		{4165A292-43DD-4137-AB12-1DB21C9A8576}.Debug|x86.Build.0 = Debug|x86
+		{4165A292-43DD-4137-AB12-1DB21C9A8576}.Release|x86.ActiveCfg = Release|x86
+		{4165A292-43DD-4137-AB12-1DB21C9A8576}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
