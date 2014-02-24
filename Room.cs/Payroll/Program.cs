@@ -11,7 +11,7 @@ namespace Payroll
         {
 
             String name, ssn, hpr, hw;
-            int hourspay, hoursworked; 
+            double hourspay, hoursworked; 
 
 
 
@@ -29,11 +29,11 @@ namespace Payroll
 
             Console.Write("Hourly pay rate:"); 
             hpr = Console.ReadLine();
-            hourspay = Convert.ToInt32(hpr);
+            hourspay = Convert.ToDouble(hpr);
 
             Console.Write("Hours worked:"); 
             hw = Console.ReadLine();
-            hoursworked = Convert.ToInt32(hw);
+            hoursworked = Convert.ToDouble(hw);
 
             // Do the calculations!!!!!!
             gross = hourspay * hoursworked;
@@ -42,20 +42,19 @@ namespace Payroll
             state = gross * 0.05;
 
 
-            Console.Write("Payroll Summary for:");
-            name = Console.ReadLine();
+            Console.WriteLine("Payroll Summary for {0}:", name);
 
-            Console.Write("SSN {0}:", ssn);
+            Console.WriteLine("SSN {0}:", ssn);
            
-            Console.Write("You earned {0} at {1} per hour",gross, moneyperh);
+            Console.WriteLine("You earned {0} at {1} per hour",gross, moneyperh);
             
 
 
-            Console.Write("Gross pay is {0}:", gross);
+            Console.WriteLine("Gross pay is:           {0,10}", gross.ToString("C"));
             
-            Console.Write("Federal withholding is {0}:", fed);
+            Console.WriteLine("Federal withholding is: {0,10}", fed.ToString("C"));
             
-            Console.Write("State withholding is {0}:", state);
+            Console.WriteLine("State withholding is    {0,10}", state.ToString("C"));
             
 
         }
