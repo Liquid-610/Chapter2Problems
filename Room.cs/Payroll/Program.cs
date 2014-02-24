@@ -10,7 +10,7 @@ namespace Payroll
         static void Main(string[] args)
         {
 
-            String name, ssn, hpr, hw, input;
+            String name, ssn, hpr, hw;
             int hourspay, hoursworked; 
 
 
@@ -45,21 +45,18 @@ namespace Payroll
             Console.Write("Payroll Summary for:");
             name = Console.ReadLine();
 
-
-            Console.Write("SSN:");
-            
-
+            Console.Write("SSN {0}:", ssn);
+           
             Console.Write("You earned {0} at {1} per hour",gross, moneyperh);
             
 
-            Console.Write("Gross pay:");
-            input = Console.ReadLine();
 
-            Console.Write("Federal withholding:");
-            input = Console.ReadLine();
-
-            Console.Write("State withholding:");
-            input = Console.ReadLine();
+            Console.Write("Gross pay is {0}:", gross);
+            
+            Console.Write("Federal withholding is {0}:", fed);
+            
+            Console.Write("State withholding is {0}:", state);
+            
 
         }
     }
