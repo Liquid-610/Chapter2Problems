@@ -9,25 +9,27 @@ namespace Payroll
     {
         static void Main(string[] args)
         {
-            double gross;
-            double fed;
-            double state;
+
+            String name, ssn, hpr, hw, input;
+            int hourspay, hoursworked;
+
+            double gross = hourspay * hoursworked;
+            double fed = gross * 0.15;
+            double state = gross * 0.05;
+
+            
+            Console.Write("Enter your name:"); name = Console.ReadLine();
+
+            Console.Write("Social Security number:"); ssn = Console.ReadLine();
+
+            Console.Write("Hourly pay rate:"); hpr = Console.ReadLine();
+
+            Console.Write("Hours worked:"); hw = Console.ReadLine();
 
 
-
-            String input;
-            Console.Write("Enter your name:"); input = Console.ReadLine();
-
-            Console.Write("Social Security number:"); input = Console.ReadLine();
-
-            Console.Write("Hourly pay rate:"); input = Console.ReadLine();
-
-            Console.Write("Hours worked:"); input = Console.ReadLine();
-
-
-            Console.Write("Payroll Summary for:"); input = Console.ReadLine();
-            Console.Write("SSN:"); input = Console.ReadLine();
-            Console.Write("You earned {0} at {1} per hour"); input = Console.ReadLine();
+            Console.Write("Payroll Summary for:"); name = Console.ReadLine();
+            Console.Write("SSN:"); ssn = Console.ReadLine();
+            Console.Write("You earned {0} at {1} per hour"); hpr = Console.ReadLine();
 
             Console.Write("Gross pay:"); input = Console.ReadLine();
             Console.Write("Federal withholding:"); input = Console.ReadLine();
