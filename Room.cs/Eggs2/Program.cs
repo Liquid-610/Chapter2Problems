@@ -12,9 +12,9 @@ namespace Eggs2
           
             int eggs;
             int chick1 = 6;
-            int chick2 = 8;
+            int chick2 = 4;
             int chick3 = 6;
-            int chick4 = 9;
+            int chick4 = 8;
 
             eggs = chick1 + chick2 + chick3 + chick4;
 
