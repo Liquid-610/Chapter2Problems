@@ -11,21 +11,30 @@ namespace FizzBuzz
         {
 
 
-            for (int i = 0; i <= 101; i++)
+            for (int i = 0; i <= 100; i++)
             {
                 Console.WriteLine(i);
 
                 if (i % 5 == 0)
                 {
-                    Console.WriteLine("{0}Fizz", i);
+                    Console.Write("{0}Fizz", i);
+
+                }
+
+                if (i % 10 == 0)
+                {
+                    Console.Write("{0}Buzz", i);
+
+                }
+
+                if (i % 10 == 0 & i % 5 == 0)
+                {
+                    Console.Write("{0}FizzBuzz");
 
                 }
 
 
-            }
-                
-
-
+            }    
 
             
         }
