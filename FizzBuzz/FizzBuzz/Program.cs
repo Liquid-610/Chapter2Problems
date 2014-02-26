@@ -9,19 +9,25 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            int i;
 
 
-            for (i = 0; i <= 101; i++)
+            for (int i = 0; i <= 101; i++)
             {
+                Console.WriteLine(i);
+
                 if (i % 5 == 0)
                 {
-                    Console.Write("Fizz");
+                    Console.WriteLine("{0}Fizz", i);
+
                 }
 
 
-
             }
+                
+
+
+
+            
         }
     }
 }
